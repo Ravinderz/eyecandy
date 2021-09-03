@@ -4,7 +4,15 @@ const MainNav = () => {
     return(
 <Container>
         <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#" className="pl-3">Eye Candy</Navbar.Brand>
+  <Navbar.Brand href="#" className="pl-3">
+  <img
+        src="/logo.png"
+        width="100"
+        height="50"
+        className="d-inline-block align-top"
+        alt="Eye Candy"
+      />
+  </Navbar.Brand>
   <Navbar.Toggle aria-controls="navbarScroll" />
   <Navbar.Collapse id="navbarScroll" className="justify-content-evenly">
     <Nav

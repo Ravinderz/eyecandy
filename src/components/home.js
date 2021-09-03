@@ -1,5 +1,7 @@
-import Carusol from './carusol';
+import Carusol from './Carusol';
+import Content from './content';
 import MainNav from './MainNav';
+import Promo from './Promo';
 import SubNav from './SubNav';
 
 const Home  = () => {
@@ -9,6 +11,8 @@ const Home  = () => {
             <MainNav/>
             <SubNav/>
             <Carusol/>
+            <Promo/>
+            <Content />
         </div>
     )
 
